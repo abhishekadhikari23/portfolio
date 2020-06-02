@@ -1,4 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@900&display=swap');
+
 body {
-    background-color: rgb(129, 243, 247);
-    color: #fff;
+  background-color:#71e6e2;
+  text-align: center;
+  color:#fff;
+  padding-top:10em;
+  font-family: 'Exo 2', sans-serif;
+}
+
+* { color:#fff; text-decoration: none;}
+
+.div-first {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.cursor {
+	border: 0.08em solid #000;
+}
+
+#head123 {
+	display: none;
+}
+
+#head1234 {
+	display: none;
 }
