@@ -4,7 +4,6 @@ body {
   background-color:#71e6e2;
   text-align: center;
   color:#fff;
-  padding-top:10em;
   font-family: 'Exo 2', sans-serif;
 }
 
@@ -12,8 +11,15 @@ body {
 
 .div-first {
     display: block;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    justify-content: center;
+
+}
+
+#div-first {
+    padding-top: 45vh;
 }
 
 .cursor {
