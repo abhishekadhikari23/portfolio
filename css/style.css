@@ -1,17 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@900&display=swap');
 
-@keyframes change {
-  0% {
-    background-position: 0 50%;
-  }
-  50% {
-    background-position: 100 50%;
-  }
-  100% {
-    background-position: 0 50%;
-  }
-}
-
 body {
   width: 100%;
   height: 100vh;
@@ -79,13 +67,13 @@ body {
 .arrow {
   width: 40px;
   height: 40px;
-  top: 50%;
+  top: 55%;
   margin: -20px 0 0 -20px;
-  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
   border-left: none;
   border-top: none;
-  border-right: 2px #fff solid;
-  border-bottom: 2px #fff solid;
+  border-right: 1.5px #fff solid;
+  border-bottom: 1.5px #fff solid;
 }
 
 .arrow:before {
@@ -105,10 +93,10 @@ body {
 
 @keyframes arrow {
   0% {
-    opacity: 1;
+    opacity: 0.8;
   }
   100% {
     opacity: 0;
-    transform: translate(-10px, -10px);
+    transform: translate(-5px, -5px);
   }
 }
