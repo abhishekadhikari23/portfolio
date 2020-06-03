@@ -8,8 +8,7 @@
         <script src='https://kit.fontawesome.com/a076d05399.js'></script>
         <style>
      
-            body {
-                font-family: 'Roboto Condensed', sans-serif;  
+            body { 
                 overflow: hidden;
                 margin: 0;
                 padding: 0;
@@ -117,9 +116,7 @@
                 white-space: nowrap;
                 visibility: hidden;
                 opacity: 0;     
-                transform: scale(0);
-                visibility 0s 0.3s, opacity 0.3s 0s;
-                 
+                transform: scale(0), visibility 0s 0.3s, opacity 0.3s 0s;
                 transition: transform 0.3s 0s, visibility 0s 0.3s, opacity 0.3s 0s;
             }
             
@@ -261,15 +258,16 @@
             }
 
             .social {
-                display: inline-flex;
-                margin: 5%;
+                display: contents;
+                margin: 2%;
                 text-align: center;
                 font-size: xx-large;
+                justify-content: space-evenly;
             }
 
             .social a{
                 display: inline-block;
-                margin: 5%;
+                margin: 2%;
             }
             
             .social a:hover img {
@@ -332,11 +330,7 @@
             
             .nav-icon:hover span:nth-child(3) {
                 width: 100%;
-            }
-            
-            
-            
-                 
+            }     
             </style>
     </head>
     <body>
