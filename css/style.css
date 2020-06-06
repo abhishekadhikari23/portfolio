@@ -210,11 +210,11 @@ body {
 }
 
 .profile-container {
-  width: 99.2%;
+  width: 99.5%;
   border-radius: 5px;
   display: inline-block;
-  margin-top: 1vh;
-  height: 98vh;
+  margin-top: 0.4vh;
+  height: 99vh;
   position: relative;
   align-items: center;
   background-color: rgb(35, 36, 34);
