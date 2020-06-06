@@ -171,6 +171,17 @@ body {
   align-items: center;
 }
 
+.div-third {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(35, 36, 34,0);
+  text-align: center;
+  align-content: center;
+  align-items: center;
+}
+
 #div-first {
   position: relative;
   padding-top: 45vh;
@@ -202,30 +213,73 @@ body {
 }
 
 .div-second img {
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
   border: 8px solid #fff;
   position: relative;
+  margin: 2%;
+}
+
+.summary {
+  width: 70%;
+  margin-right: 3%;
+  text-align: justify;
+}
+
+.summary-social{
+  display: inline-block;
+  margin: 2%;
+  width: 46%;
+}
+
+#summary-social-ul1 li{
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+
+#summary-social-ul2 li{
+  margin-top: 6%;
+  margin-bottom: 6%;
 }
 
 .profile-container {
   width: 99.5%;
   border-radius: 5px;
   display: inline-block;
-  margin-top: 0.4vh;
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
   height: 99vh;
   position: relative;
   align-items: center;
   background-color: rgb(35, 36, 34);
 }
 
-.profile {
-  padding-top: 2%;
-  display: inline-flex;
-  align-items: flex-start;
+.work-container {
+  width: 99.5%;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 0.5vh;
+  margin-bottom: 0.5hv;
+  height: 99vh;
+  position: relative;
+  align-items: center;
+  background-color: rgb(233, 238, 228);
 }
 
+.profile {
+  padding: 2%;
+  display: inline-flex;
+  align-items: flex-start;
+  flex-flow: wrap;
+}
+
+.work {
+  padding: 2%;
+  display: inline-flex;
+  align-items: flex-start;
+  flex-flow: wrap;
+}
 
 
 .arrow,
@@ -283,6 +337,10 @@ body {
 
 #arrow-second {
   bottom: -95%;
+}
+
+#arrow-third {
+  bottom: 195%;
 }
 
 .about {

@@ -338,6 +338,7 @@
         <script>var $j = $.noConflict(true);</script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="js/scroll.js"></script>
+        <script src="js/scroll-keys.js"></script>
         <header>
             <div class="nav-icon float-right">
                 <span></span>
@@ -370,7 +371,7 @@
         <div class="cd-transition-layer visible opening"> 
             <div class="bg-layer"></div>
         </div>
-        <div class='div-first'>
+        <div class='div-first new' style="text-align: center;">
             <h1 id="div-first">
                 <a href="" class="typewrite" data-period="1000" data-type='[ "Hi, I&#39m &#128526; Mr. Firstname Lastname.", "&#128514; Ok, no need to call me Mr.", "🌐 I mostly reside in the web.", "👨‍💻 I am a Full-Stack Developer.", "I Love 🐍 Python.", "I&#39m a Freelancer.", "Jai Hind !!! " ]'>
                   <span class="wrap"></span>
@@ -385,25 +386,58 @@
                    
                 </li>
               </ul>
+              <h3 style="position: absolute; bottom: 10%; display: flex; left: 43%;">Click Below To Go Down</h3>
             <a class="arrow" href="#div-second"></a>
         </div>
-        <div class='div-second' id='div-second'>
+        <div class='div-second new' id='div-second'>
             <div class="profile-container">
-                <div class="profile"></div>
-                <img src="media/Profile_Steam.jpg" />
-            <div class="about">
-                <ul>
-                    <li><h1 style="font-size:60px;">Firstname Lastname</h1></li>
-                    <li><h2 style="color: #71EEB8;">Freelance Full-Stack Developer</h2></li>
-                    <li style='padding-top: 1%;'>Enthusiastic Freelance Full-Stack Developer eager to contribute to team success through hard work, attention to detail and excellent organizational skills. Clear understanding of Python, Django, Backend
-                        and Frontend and training in Algorithm optimization. Motivated to learn, grow and excel in IT industry.</li>
+                <div class="profile">
+                    <div class="summary">
+                        <ul>
+                            <li><h1 style="font-size:60px; margin: 3%;">Firstname Lastname</h1></li>
+                            <li><h2 style="color: #71EEB8; margin: 3%;">Freelance Full-Stack Developer</h2></li>
+                            <li style='margin: 3%;'>Enthusiastic Freelance Full-Stack Developer eager to contribute to team success through hard work, attention to detail and excellent organizational skills. Clear understanding of Python, Django, Backend
+                                and Frontend and training in Algorithm optimization. Motivated to learn, grow and excel in IT industry.</li>
 
-                </ul>
+                        </ul>
+                    </div><img src="media/Profile_Steam.jpg" />
+                    <div class='summary-social' style="padding-left: 5%;">
+                        <ul id='summary-social-ul1' style="text-align: justify;">
+                            <li><a href=""><i class="fas fa-at"></i>&nbsp;&nbsp;abhiayush23@gmail.com</a></li>
+                            <li><a href=""><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;Ghoshpara, Kalyani, WB, India</a></li>
+                            <li><a href=""><i class="fab fa-twitter"></i>&nbsp;&nbsp;@a_adhikari23</a></li>
+                            <li><a href=""><i class="fab fa-facebook-f"></i>&nbsp;&nbsp;facebook.com/abhiayush23</a></li>
+                            <li><a href=""><i class="fab fa-instagram"></i>&nbsp;&nbsp;instagram/abhiayush23</a></li>
+                        </ul>
+                    </div>
+                    <div class='summary-social' style="padding-left: 15%;">
+                        <ul id='summary-social-ul2' style="text-align: justify;">
+                            <li><a href=""><i class="fas fa-mobile-alt"></i>&nbsp;&nbsp;+91 8967740655</a></li>
+                            <li><a href=""><i class="fas fa-globe"></i>&nbsp;&nbsp;abhishek.sairyonodevs.in</a></li>
+                            <li><a href=""><i class="fab fa-skype"></i>&nbsp;&nbsp;nobisukenobi32</a></li>
+                            <li><a href=""><i class="fab fa-github"></i>&nbsp;&nbsp;github.com/abhishekadhikari23</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            </div>
-            <a class="arrow" id='arrow-second' href="#div-third"></a>
         </div>
+        <a class="arrow" id='arrow-second' href="#div-third"></a>
+    </div>
+    <div class='div-third new' id='div-third'>
+        <div class="work-container">
+            <div class="work">
+                <div id='work-experience'>
+                    <ul>
+                        <li><h1 style="color: #71EEB8;">Work Experience</h1></li>
+                        <li><h2 style="color: #000000;">Freelance Full-Stack Developer</h2></li>
+                        <li><h3 style="color: #000000;">Self-Employed</h3></li>
+                    </ul>
+                </div>
+            </div>    
+        </div>
+    </div>
+    <a class="arrow" id='arrow-third' href="#div-fourth"></a>
+</div>
         <script src="js/typewriter.js"></script>
  
  <script src="js/menu.js">
