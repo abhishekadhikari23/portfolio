@@ -23,7 +23,7 @@ body {
   text-align: center;
   color:#fff;
   font-family: 'Exo 2', sans-serif;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 * { margin: 0; 
@@ -160,6 +160,8 @@ body {
 
 
 .div-second {
+  top: 0;
+  left: 0;
   height: 100%;
   width: 100%;
   background-color: rgb(35, 36, 34);
@@ -196,20 +198,19 @@ body {
 }
 
 .div-second img {
-  height: 250px;
-  width: 250px;
+  height: 300px;
+  width: 300px;
   border-radius: 50%;
   border: 8px solid #fff;
   position: relative;
-  top: 15px;
-  margin-bottom: 20px;
 }
 
 .profile-container {
   height: 100%;
   width: 20%;
   position: relative;
-  left: 0px;
+  align-items: center;
+  transform: translateX(90rem) translateY(5rem);
 }
 
 
@@ -285,4 +286,9 @@ body {
 
 #arrow-second {
   bottom: -95%;
+}
+
+.about {
+  top: 0;
+  position: relative;
 }
