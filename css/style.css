@@ -21,6 +21,7 @@ body {
   position: relative;
   animation: gradient 15s ease infinite;
   text-align: center;
+  align-content: center;
   color:#fff;
   font-family: 'Exo 2', sans-serif;
   /* overflow: hidden; */
@@ -164,7 +165,10 @@ body {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgb(35, 36, 34);
+  background-color: rgb(35, 36, 34,0);
+  text-align: center;
+  align-content: center;
+  align-items: center;
 }
 
 #div-first {
@@ -206,8 +210,20 @@ body {
 }
 
 .profile-container {
+  width: 99.2%;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 1vh;
+  height: 98vh;
   position: relative;
   align-items: center;
+  background-color: rgb(35, 36, 34);
+}
+
+.profile {
+  padding-top: 2%;
+  display: inline-flex;
+  align-items: flex-start;
 }
 
 
