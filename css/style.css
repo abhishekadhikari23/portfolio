@@ -19,7 +19,7 @@ body {
   background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
   background-size: 400% 400%;
   position: relative;
-  animation: gradient 15s ease infinite;
+  animation: gradient 7.5s ease infinite;
   text-align: center;
   align-content: center;
   color:#fff;
@@ -385,10 +385,34 @@ z-index: 4;
 }
 
 #skills-list div {
-  background-color: #71EEB8;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 3px 3px rgb(233, 35, 35);
   border-radius: 5px;
   padding: 1%;
   margin: 3%;
+  color: black;
+  animation: shake 0.52s cubic-bezier(.36,.07,.19,.97) infinite;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-0.2px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(0.4px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(1px, 0, 0);
+  }
 }
 
 #skills li {
@@ -402,7 +426,7 @@ z-index: 4;
 }
 
 #arrow-third {
-  bottom: -195%;
+  bottom: -197%;
   z-index: 5;
 }
 
