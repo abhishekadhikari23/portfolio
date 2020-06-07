@@ -244,15 +244,13 @@ body {
 }
 
 .profile-container {
-  width: 99.5%;
-  border-radius: 5px;
+  width: 100%;
   display: inline-block;
-  margin-top: 0.5vh;
-  margin-bottom: 0.5vh;
-  height: 99vh;
+  height: 100vh;
   position: relative;
   align-items: center;
   background-color: rgb(35, 36, 34);
+  background-image: url(../media/ripple.svg) ;
 }
 
 #work-experience {
@@ -281,12 +279,9 @@ body {
 }
 
 .work-container {
-  width: 99.5%;
-  border-radius: 5px;
+  width: 100%;
+  height: 100%;
   display: inline-block;
-  margin-top: 0.5vh;
-  margin-bottom: 0.5hv;
-  height: 99vh;
   position: relative;
   align-items: center;
   background-color: #ffaa00;
@@ -298,13 +293,9 @@ z-index: 4;
 }
 
 #fourth-container {
-  width: 99.5%;
-  border-radius: 5px;
+  width: 100%;
   display: inline-block;
-  margin-top: 0.5vh;
-  margin-bottom: 0.5hv;
-  height: 99vh;
-  margin-left: 0.25%;
+  height: 100%;
   position: relative;
   align-items: center;
   background: linear-gradient(#75d6ff, #00b4ff);
